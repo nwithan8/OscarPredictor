@@ -1,89 +1,9 @@
-import csv
-from urllib.parse import urlencode
-from datetime import datetime
-
-import requests
-import pandas as pd
 from imdbpie import Imdb
+
+from data.data_collection import helpers
 
 SINCE_YEAR = 2000
 TO_YEAR = 2020
-
-
-TMDB_API_KEY = "df11d86cc7da3a00faaeafc354b858de"
-
-
-def get_json(url):
-    res = requests.get(url)
-    if res:
-        return res.json()
-    return None
-
-
-def tmdb_get(endpoint, params: dict = None):
-    url = 'https://api.themoviedb.org/3' + endpoint + "?api_key=" + TMDB_API_KEY
-    if params:
-        url += '&' + urlencode(params)
-    return get_json(url=url)
-
-
-def get_data():
-    return get_json(
-        url="https://pkgstore.datahub.io/36661def37f62e4130670ab75e06465a/oscars-nominees-and-winners/data_json/data/d3c23178ad964c76c8ce0ed81762ed7b/data_json.json")
-
-
-def get_omdb_movie_data(movie_name):
-    data = {'t': movie_name, 'apikey': '83930f10'}
-    url = f"http://www.omdbapi.com/?{urlencode(data)}"
-    return get_json(url=url)
-
-
-def get_imdb_movie_data_by_name(movie_name):
-    results = imdb.search_for_title(movie_name)
-    if results:
-        return get_imdb_movie_data_by_id(imdb_id=results[0]['imdb_id'])
-
-
-def get_imdb_movie_data_by_id(imdb_id):
-    return imdb.get_title(imdb_id=imdb_id)
-
-
-def get_tmdb_movie_data_by_imdb_id(imdb_id):
-    search_results = tmdb_get(endpoint=f'/find/{imdb_id}', params={'external_source': 'imdb_id'})
-    if search_results:
-        # print(search_results)
-        tmdb_id = search_results['movie_results'][0]['id']
-        return tmdb_get(endpoint=f'/movie/{tmdb_id}')
-    return None
-
-
-def get_director(movie_name):
-    json_data = get_omdb_movie_data(movie_name)
-    if json_data and json_data.get('Director'):
-        return json_data['Director'].split(", ")
-    return None
-
-
-def parse_release_date(tmdb_release_date):
-    split = tmdb_release_date.split('-')
-    return split
-
-
-def convert_date_to_string(tmdb_release_date):
-    date = datetime.strptime(tmdb_release_date, '%Y-%m-%dT%H:%M:%S.000Z')
-    return date.strftime("%Y-%m-%d")
-
-
-def get_tmdb_us_release_date(tmdb_id):
-    data = tmdb_get(endpoint=f'/movie/{tmdb_id}/release_dates')
-    if data:
-        for release in data['results']:
-            if release['iso_3166_1'] == 'US':
-                for date in release['release_dates']:
-                    if date['type'] == 3:
-                        return parse_release_date(convert_date_to_string(date['release_date']))
-    return None
-
 
 """
 def actor_in_movie(actor_name, movie_name):
@@ -108,16 +28,16 @@ def director_of_movie(director_name, movie_name):
 def create_movie_entry(movie_name, winner: bool, year):
     movie_dict = {}
     print(f"Building entry for '{movie_name}'...")
-    omdb_data = get_omdb_movie_data(movie_name=movie_name)
+    omdb_data = helpers.get_omdb_movie_data(movie_name=movie_name)
     if omdb_data['Response'] == 'False':
         print("Could not get OMDb info.")
         return None
     imdb_id = omdb_data['imdbID']
-    imdb_data = get_imdb_movie_data_by_id(imdb_id=imdb_id)
+    imdb_data = helpers.get_imdb_movie_data_by_id(imdb_id=imdb_id)
     if not imdb_data:
         print("Could not get IMDb info.")
         return None
-    tmdb_data = get_tmdb_movie_data_by_imdb_id(imdb_id=imdb_id)
+    tmdb_data = helpers.get_tmdb_movie_data_by_imdb_id(imdb_id=imdb_id)
     if not tmdb_data:
         print("Could not get TMDb info.")
         return None
@@ -134,7 +54,7 @@ def create_movie_entry(movie_name, winner: bool, year):
     for metric in omdb_data['Ratings']:
         if metric['Source'] == 'Rotten Tomatoes':
             movie_dict['rottenTomatoesScore'] = int(metric['Value'].replace('%', ''))
-    release_date = get_tmdb_us_release_date(tmdb_id=tmdb_id)
+    release_date = helpers.get_tmdb_us_release_date(tmdb_id=tmdb_id)
     if not release_date:
         print("Could not get release date. Flagging release date.")
         movie_dict['USReleaseMonth'] = "MISSING"
@@ -154,28 +74,15 @@ def create_movie_entry(movie_name, winner: bool, year):
     return movie_dict
 
 
-def write_to_csv(entries, filename):
-    csv_columns = []
-    for key in entries[0].keys():
-        csv_columns.append(key)
-    with open(filename, 'w+') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
-        writer.writeheader()
-        for entry in entries:
-            if entry:
-                print(f"Saving {entry['title']} entry...")
-                writer.writerow(entry)
-
-
 imdb = Imdb()
-oscar_data = get_data()
+oscar_data = helpers.get_data()
 final_entries = []
 for item in oscar_data:
     if item['category'] in ['BEST MOTION PICTURE', 'BEST PICTURE', 'OUTSTANDING PICTURE', 'OUTSTANDING PRODUCTION']:
         if SINCE_YEAR <= item['year'] <= TO_YEAR:
             entry = create_movie_entry(movie_name=item['entity'], winner=item['winner'], year=item['year'])
             final_entries.append(entry)
-write_to_csv(entries=final_entries, filename='oscars.csv')
+helpers.write_to_csv(entries=final_entries, filename='oscars.csv')
 """
 actors = {}
 actresses = {}
