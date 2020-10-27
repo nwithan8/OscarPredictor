@@ -24,5 +24,5 @@ while True:
         else:
             print(f"Wins: {results['wins']}, Noms: {results['noms']}")
     else:
-        print("Could not find director, so -> Wins: 0, Noms: 0")
+        print(f"Could not find {args.type}, so -> Wins: 0, Noms: 0")
 
