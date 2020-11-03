@@ -6,6 +6,10 @@ import imdb
 
 im = imdb.IMDb()
 
+parser = argparse.ArgumentParser()
+parser.add_argument('count', type=int, help='number of actors to list')
+args = parser.parse_args()
+
 while True:
     movieId = None
     name = input(f"Movie title: ")
@@ -22,7 +26,7 @@ while True:
                     movieId = this_movie.movieID
                     break
             movie = im.get_movie(movieId)
-            for person in movie['cast'][0:5]:
+            for person in movie['cast'][0:args.count]:
                 print(person.data['name'])
         else:
             print("Could not find movie.")
