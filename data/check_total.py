@@ -20,9 +20,9 @@ while True:
     results = data[year].get(name)
     if results:
         if int(year) in results['win_years']:
-            print(f"Won this year. Wins: {results['wins']}, Noms: {results['noms']}")
+            print(f"Won this year. Noms: {results['noms']}, Wins: {results['wins']}")
         else:
-            print(f"Wins: {results['wins']}, Noms: {results['noms']}")
+            print(f"Noms: {results['noms']}, Wins: {results['wins']}")
     else:
-        print(f"Could not find {args.type}, so -> Wins: 0, Noms: 0")
+        print(f"Could not find {args.type}, so -> Noms: 0, Wins: 0")
 
