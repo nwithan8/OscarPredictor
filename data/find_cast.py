@@ -30,5 +30,3 @@ while True:
                 print(person.data['name'])
         else:
             print("Could not find movie.")
-
-
