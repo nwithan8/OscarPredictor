@@ -1,125 +1,125 @@
 title,won,ceremonyYear,runningTime,budget,revenue,gross,directorName,wonBestDirector,directorNomsToDate,directorWinsToDate,actor1Name,wonBestActor,actor1NomsToDate,actor1WinsToDate,actor2Name,wonBestActor,actor2NomsToDate,actor2WinsToDate,actor3Name,wonBestActor,actor3NomsToDate,actor3WinsToDate,MPAARating,rottenTomatoesScore,USReleaseMonth,USReleaseYear,peakBoxOfficeRanking
 Chocolat,FALSE,2000,121,25000000,152500343,127500343,Lasse Hallstr�m,FALSE,2,0,Alfred Molina,FALSE,0,0,Carrie-Anne Moss,,,,Aurelien Parent Koenig,,,,PG-13,62,12,2000,13
-"Crouching Tiger, Hidden Dragon",FALSE,2000,120,17000000,213525736,196525736,Ang Lee,FALSE,1,0,Yun-Fat Chow,,,,Michelle Yeoh,,,,Ziyi Zhang,,,,PG-13,97,1,2001,2
-Erin Brockovich,FALSE,2000,131,52000000,256271286,204271286,Steven Soderbergh,TRUE,1,1,Julia Roberts,,,,David Brisbin,,,,Dawn Didawick,,,,R,84,3,2000,1
-Gladiator,TRUE,2000,155,103000000,465361176,362361176,Ridley Scott,FALSE,2,0,Russell Crowe,,,,Joaquin Phoenix,,,,Connie Nielsen,,,,R,77,5,2000,1
-Traffic,FALSE,2000,147,48000000,207515725,159515725,Steven Soderbergh,TRUE,1,1,Benicio Del Toro,,,,Jacob Vargas,,,,Andrew Chavez,,,,R,93,12,2000,3
-A Beautiful Mind,TRUE,2001,135,60000000,313542341,253542341,Ron Howard,TRUE,1,0,Russell Crowe,,,,Ed Harris,,,,Jennifer Connelly,,,,PG-13,75,12,2001,2
-Gosford Park,FALSE,2001,131,19800000,87754044,67954044,Robert Altman,FALSE,4,0,Maggie Smith,,,,Michael Gambon,,,,Kristin Scott Thomas,,,,R,86,1,2002,9
-In the Bedroom,FALSE,2001,131,1700000,43368779,43368779,Todd Field,FALSE,0,0,Tom Wilkinson,,,,Sissy Spacek,,,,Nick Stahl,,,,R,93,1,2002,17
-The Lord of the Rings: The Fellowship of the Ring,FALSE,2001,178,93000000,871368364,778368364,Peter Jackson,FALSE,1,0,Elijiah Wood,,,,Ian McKellan,,,,Sean Astin,,,,PG-13,91,12,2001,1
-Chicago,TRUE,2002,113,45000000,306776732,261776732,Rob Marshall,FALSE,1,0,Taye Diggs,,,,Cliff Saunders,,,,Catherine Zeta-Jones,,,,PG-13,86,12,2002,3
-Gangs of New York,FALSE,2002,167,100000000,193772504,93772504,Martin Scorsese,FALSE,3,0,Leonardo DiCaprio,,,,Daniel Day-Lewis,,,,Cameron Diaz,,,,R,73,12,2002,4
-The Hours,FALSE,2002,110,25000000,41597830,16597830,Stephen Daldry,FALSE,2,0,Nicole Kidman,,,,Julianne Moore,,,,Meryl Streep,,,,PG-13,80,12,2002,10
-The Lord of the Rings: The Two Towers,FALSE,2002,179,79000000,926287400,847287400,Peter Jackson,FALSE,2,0,Elijiah Wood,,,,Ian McKellan,,,,Viggo Mortensen,,,,PG-13,95,12,2002,1
-The Pianist,FALSE,2002,150,35000000,120072577,85072577,Roman Polanski,TRUE,2,1,Adrien Brody,,,,Emilia Fox,,,,Michal Zebrowski,,,,R,95,12,2002,11
-The Lord of the Rings: The Return of the King,TRUE,2003,201,94000000,1118888979,1024888979,Peter Jackson,TRUE,3,1,Elijiah Wood,,,,Ian McKellan,,,,Viggo Mortensen,,,,PG-13,93,12,2003,1
-Lost in Translation,FALSE,2003,102,4000000,119723856,115723856,Sofia Coppola,FALSE,1,0,Scarlett Johansson,,,,Bill Murray,,,,Akiko Takeshita,,,,R,95,9,2003,7
-Master and Commander: The Far Side of the World,FALSE,2003,138,150000000,212011111,62011111,Peter Weir,FALSE,4,0,Russell Crowe,,,,Paul Bettany,,,,James D'Arcy,,,,PG-13,85,11,2003,2
+"Crouching Tiger, Hidden Dragon",FALSE,2000,120,17000000,213525736,196525736,Ang Lee,FALSE,1,0,Yun-Fat Chow,FALSE,0,0,Michelle Yeoh,,,,Ziyi Zhang,,,,PG-13,97,1,2001,2
+Erin Brockovich,FALSE,2000,131,52000000,256271286,204271286,Steven Soderbergh,TRUE,1,1,Julia Roberts,TRUE,1,1,David Brisbin,,,,Dawn Didawick,,,,R,84,3,2000,1
+Gladiator,TRUE,2000,155,103000000,465361176,362361176,Ridley Scott,FALSE,2,0,Russell Crowe,TRUE,1,1,Joaquin Phoenix,,,,Connie Nielsen,,,,R,77,5,2000,1
+Traffic,FALSE,2000,147,48000000,207515725,159515725,Steven Soderbergh,TRUE,1,1,Benicio Del Toro,FALSE,0,0,Jacob Vargas,,,,Andrew Chavez,,,,R,93,12,2000,3
+A Beautiful Mind,TRUE,2001,135,60000000,313542341,253542341,Ron Howard,TRUE,1,0,Russell Crowe,FALSE,2,1,Ed Harris,,,,Jennifer Connelly,,,,PG-13,75,12,2001,2
+Gosford Park,FALSE,2001,131,19800000,87754044,67954044,Robert Altman,FALSE,4,0,Maggie Smith,FALSE,1,1,Michael Gambon,,,,Kristin Scott Thomas,,,,R,86,1,2002,9
+In the Bedroom,FALSE,2001,131,1700000,43368779,43368779,Todd Field,FALSE,0,0,Tom Wilkinson,FALSE,1,0,Sissy Spacek,,,,Nick Stahl,,,,R,93,1,2002,17
+The Lord of the Rings: The Fellowship of the Ring,FALSE,2001,178,93000000,871368364,778368364,Peter Jackson,FALSE,1,0,Elijiah Wood,FALSE,0,0,Ian McKellan,,,,Sean Astin,,,,PG-13,91,12,2001,1
+Chicago,TRUE,2002,113,45000000,306776732,261776732,Rob Marshall,FALSE,1,0,Taye Diggs,FALSE,0,0,Cliff Saunders,,,,Catherine Zeta-Jones,,,,PG-13,86,12,2002,3
+Gangs of New York,FALSE,2002,167,100000000,193772504,93772504,Martin Scorsese,FALSE,3,0,Leonardo DiCaprio,FALSE,0,0,Daniel Day-Lewis,,,,Cameron Diaz,,,,R,73,12,2002,4
+The Hours,FALSE,2002,110,25000000,41597830,16597830,Stephen Daldry,FALSE,2,0,Nicole Kidman,TRUE,1,1,Julianne Moore,,,,Meryl Streep,,,,PG-13,80,12,2002,10
+The Lord of the Rings: The Two Towers,FALSE,2002,179,79000000,926287400,847287400,Peter Jackson,FALSE,2,0,Elijiah Wood,FALSE,0,0,Ian McKellan,,,,Viggo Mortensen,,,,PG-13,95,12,2002,1
+The Pianist,FALSE,2002,150,35000000,120072577,85072577,Roman Polanski,TRUE,2,1,Adrien Brody,TRUE,1,1,Emilia Fox,,,,Michal Zebrowski,,,,R,95,12,2002,11
+The Lord of the Rings: The Return of the King,TRUE,2003,201,94000000,1118888979,1024888979,Peter Jackson,TRUE,3,1,Elijiah Wood,FALSE,0,0,Ian McKellan,,,,Viggo Mortensen,,,,PG-13,93,12,2003,1
+Lost in Translation,FALSE,2003,102,4000000,119723856,115723856,Sofia Coppola,FALSE,1,0,Scarlett Johansson,FALSE,0,0,Bill Murray,,,,Akiko Takeshita,,,,R,95,9,2003,7
+Master and Commander: The Far Side of the World,FALSE,2003,138,150000000,212011111,62011111,Peter Weir,FALSE,4,0,Russell Crowe,FALSE,2,1,Paul Bettany,,,,James D'Arcy,,,,PG-13,85,11,2003,2
 Mystic River,FALSE,2003,138,25000000,156822020,131822020,Clint Eastwood,FALSE,1,1,Sean Penn,TRUE,3,1,Tim Robbins,,,,Kevin Bacon,,,,R,88,10,2003,5
-Seabiscuit,FALSE,2003,140,87000000,148336445,61336445,Gary Ross,FALSE,0,0,David McCullough,,,,Jeff Bridges,,,,Paul Vincent O'Connor,,,,PG-13,78,7,2003,5
-The Aviator,FALSE,2004,170,110000000,213719942,103719942,Martin Scorsese,FALSE,4,0,Leonardo DiCaprio,,,,Cate Blanchett,,,,Kate Beckinsale,,,,PG-13,86,12,2004,3
-Finding Neverland,FALSE,2004,106,25000000,116766556,91766556,Marc Forster,FALSE,0,0,Johnny Depp,,,,Kate Winslet,,,,Freddie Highmore,,,,PG,83,11,2004,8
-Million Dollar Baby,TRUE,2004,132,30000000,216763646,186763646,Clint Eastwood,TRUE,3,2,Clint Eastwood,,,,Hilary Swank,,,,Morgan Freeman,,,,PG-13,91,1,2005,3
-Ray,FALSE,2004,152,40000000,124731534,84731534,Taylor Hackford,FALSE,1,0,Jamie Foxx,,,,Kerry Washington,,,,Regina King,,,,PG-13,80,10,2004,2
-Sideways,FALSE,2004,127,16000000,109502303,93502303,Alexander Payne,FALSE,1,0,Paul Giamatti,,,,Thomas Haden Church,,,,Virginia Madsen,,,,R,97,10,2004,11
-Brokeback Mountain,FALSE,2005,134,14000000,178043761,164043761,Ang Lee,TRUE,2,1,Heath Ledger,,,,Jake Gyllenhaal,,,,Randy Quaid,,,,R,87,1,2006,4
-Capote,FALSE,2005,114,7000000,49084830,42084830,Bennett Miller,FALSE,1,0,Philip Seymour Hoffman,,,,Allie Mickelson,,,,Kelci Stephenson,,,,R,90,9,2005,15
-Crash,TRUE,2005,112,6500000,98410061,91910061,Paul Haggis,FALSE,1,0,Sandra Bullock,,,,Don Cheadle,,,,Matt Dillon,,,,R,74,5,2005,4
-"Good Night, and Good Luck.",FALSE,2005,93,7000000,54600000,47600000,George Clooney,FALSE,1,0,David Strathairn,,,,George Clooney,,,,"Robert Downey, Jr.",,,,PG,93,10,2005,7
-Munich,FALSE,2005,164,70000000,130358911,60358911,Steven Spielberg,FALSE,4,2,Eric Bana,,,,Daniel Craig,,,,Ciar�n Hinds,,,,R,78,1,2006,6
-Babel,FALSE,2006,143,25000000,135330182,110330182,Alejandro G. I��rritu,FALSE,1,0,Brad Pitt,,,,Cate Blanchett,,,,Mohamed Akhzam,,,,R,69,10,2006,6
-The Departed,TRUE,2006,151,90000000,291465034,201465034,Martin Scorsese,TRUE,5,1,Leonardo DiCaprio,,,,Matt Damon,,,,Jack Nicholson,,,,R,91,10,2006,1
-Letters from Iwo Jima,FALSE,2006,141,19000000,68673228,49673228,Clint Eastwood,FALSE,4,2,Ken Watanabe,,,,Kazunari Ninomiya,,,,Tsuyoshi Ihara,,,,R,91,12,2006,14
-Little Miss Sunshine,FALSE,2006,101,8000000,100523181,92523181,Jonathan Dayton,FALSE,0,0,Abigail Breslin,,,,Greg Kinnear,,,,Steve Carell,,,,R,91,7,2006,3
-The Queen,FALSE,2006,103,15000000,123384128,108384128,Stephen Frears,FALSE,2,0,Helen Mirren,,,,James Cromwell,,,,Alex Jennings,,,,PG-13,96,9,2006,9
-Atonement,FALSE,2007,123,30000000,131016624,101016624,Joe Wright,FALSE,0,0,Saoirse Ronan,,,,Ailidh Mackay,,,,James McAvoy,,,,R,83,1,2008,9
-Juno,FALSE,2007,96,7500000,231411584,223911584,Jason Reitman,FALSE,1,0,Ellen Page,,,,Michael Cera,,,,Jennifer Garner,,,,PG-13,94,12,2007,2
-Michael Clayton,FALSE,2007,119,25000000,92991835,67991835,Tony Gilroy,FALSE,1,0,Tom Wilkinson,,,,Michael O'Keefe,,,,Tilda Swinton,,,,R,91,10,2007,4
-No Country for Old Men,TRUE,2007,122,25000000,171627166,146627166,Coen Brothers,TRUE,1,1,Tommy Lee Jones,,,,Javier Bardem,,,,Josh Brolin,,,,R,93,11,2007,5
-There Will Be Blood,FALSE,2007,158,25000000,77208711,52208711,Paul Thomas Anderson,FALSE,1,0,Daniel Day-Lewis,,,,Paul Dano,,,,Ciar�n Hinds,,,,R,91,12,2007,9
-The Curious Case of Benjamin Button,FALSE,2008,166,150000000,333932083,183932083,David Fincher,FALSE,1,0,Brad Pitt,,,,Cate Blanchett,,,,Julia Ormond,,,,PG-13,72,12,2008,3
-Frost/Nixon,FALSE,2008,122,25000000,18593156,-6406844,Ron Howard,FALSE,2,1,Michael Sheen,,,,Frank Langella,,,,Sam Rockwell,,,,R,93,12,2008,16
-Milk,FALSE,2008,128,20000000,54586584,34586584,Gus Van Sant,FALSE,2,0,Sean Penn,,,,Emile Hirsch,,,,Josh Brolin,,,,R,93,1,2009,9
-The Reader,FALSE,2008,124,32000000,113019290,81019290,Stephen Daldry,FALSE,3,0,Ralph Fiennes,,,,David Kross,,,,Kate Winslet,,,,R,63,1,2009,12
-Slumdog Millionaire,TRUE,2008,120,15000000,377910544,362910544,Danny Boyle,TRUE,1,1,Dev Patel,,,,Saurabh Shukla,,,,Anil Kapoor,,,,R,91,11,2008,3
-Avatar,FALSE,2009,162,237000000,2787965087,2550965087,James Cameron,FALSE,1,1,Sam Worthington,,,,Zoe Saldana,,,,Sigourney Weaver,,,,PG-13,82,12,2009,1
-The Blind Side,FALSE,2009,129,29000000,309208309,280208309,John Lee Hancock,FALSE,0,0,Sandra Bullock,,,,Tim McGraw,,,,Quinton Aaron,,,,PG-13,66,11,2009,1
-District 9,FALSE,2009,112,30000000,210819611,180819611,Neill Blomkamp,FALSE,0,0,Sharlto Copley,,,,Jason Cope,,,,Nathalie Boltt,,,,R,90,8,2009,1
-An Education,FALSE,2009,100,7500000,26096852,18596852,Lone Scherfig,FALSE,0,0,Carey Mulligan,,,,Olivia Williams,,,,Alfred Molina,,,,PG-13,94,10,2009,14
-The Hurt Locker,TRUE,2009,131,15000000,49230772,34230772,Kathryn Bigelow,TRUE,1,1,Jeremy Renner,,,,Anthony Mackie,,,,Brian Geraghty,,,,R,97,6,2009,13
-Inglourious Basterds,FALSE,2009,153,70000000,321455689,251455689,Quentin Tarantino,FALSE,2,0,Brad Pitt,,,,M�lanie Laurent,,,,Christoph Waltz,,,,R,89,8,2009,1
-A Serious Man,FALSE,2009,106,7000000,31430334,24430334,Coen Brothers,FALSE,2,1,Michael Stuhlbarg,,,,Richard Kind,,,,Fred Melamed,,,,R,90,10,2009,12
-Up,FALSE,2009,96,175000000,735099082,560099082,Pete Docter,FALSE,0,0,Edward Asner,,,,Christopher Plummer,,,,Jordan Nagai,,,,PG,98,5,2009,1
-Up in the Air,FALSE,2009,109,25000000,163670000,138670000,Jason Reitman,FALSE,2,0,George Clooney,,,,Anna Kendrick,,,,Vera Farmiga,,,,R,90,9,2009,6
-Black Swan,FALSE,2010,108,13000000,329398046,316398046,Darren Aronofsky,FALSE,1,0,Natalie Portman,,,,Mila Kunis,,,,Vincent Cassel,,,,R,85,12,2010,5
-The Fighter,FALSE,2010,116,25000000,93617009,68617009,David O. Russell,FALSE,1,0,Mark Wahlberg,,,,Christian Bale,,,,Amy Adams,,,,R,90,12,2010,4
-Inception,FALSE,2010,148,160000000,825532764,665532764,Christopher Nolan,FALSE,0,0,Leonardo DiCaprio,,,,Joseph Gordon-Levitt,,,,Ellen Page,,,,PG-13,87,7,2010,1
-The Kids Are All Right,FALSE,2010,106,3500000,34705850,31205850,Lisa Cholodenko,FALSE,0,0,Julianne Moore,,,,Annette Bening,,,,Mark Ruffalo,,,,R,92,7,2010,10
-The King's Speech,TRUE,2010,118,15000000,414211549,399211549,Tom Hooper,TRUE,1,1,Colin Firth,,,,Helena Bonham Carter,,,,Geoffrey Rush,,,,R,94,9,2010,4
-127 Hours,FALSE,2010,94,18000000,35692920,17692920,Danny Boyle,FALSE,1,1,James Franco,,,,Kate Mara,,,,Amber Tamblyn,,,,R,93,11,2010,11
-The Social Network,FALSE,2010,120,40000000,224920315,184920315,David Fincher,FALSE,2,0,Jesse Eisenberg,,,,Andrew Garfield,,,,Justin Timberlake,,,,PG-13,96,10,2010,1
-Toy Story 3,FALSE,2010,103,200000000,1066969703,866969703,Lee Unkrich,FALSE,0,0,Tom Hanks,,,,Tim Allen,,,,Ned Beatty,,,,G,98,6,2010,1
-True Grit,FALSE,2010,110,38000000,252276927,214276927,Coen Brothers,FALSE,3,1,Jeff Bridges,,,,Hailee Steinfeld,,,,Matt Damon,,,,PG-13,96,12,2010,1
-Winter's Bone,FALSE,2010,100,2000000,13831503,11831503,Debra Granik,FALSE,0,0,Jennifer Lawrence,,,,Isaiah Stone,,,,Ashlee Thompson,,,,R,94,6,2010,16
-The Artist,TRUE,2011,100,15000000,133432856,118432856,Michel Hazanavicius,TRUE,1,1,Jean Dujardin,,,,B�r�nice Bejo,,,,John Goodman,,,,PG-13,95,1,2012,11
-The Descendants,FALSE,2011,115,20000000,177243185,157243185,Alexander Payne,FALSE,2,0,George Clooney,,,,Shailene Woodley,,,,Amara Miller,,,,R,88,11,2011,7
-Extremely Loud & Incredibly Close,FALSE,2011,129,40000000,55247881,15247881,Stephen Daldry,FALSE,3,0,Tom Hanks,,,,Thomas Horn,,,,Sandra Bullock,,,,PG-13,45,12,2011,4
-The Help,FALSE,2011,146,25000000,216639112,191639112,Tate Taylor,FALSE,0,0,Emma Stone,,,,Viola Davis,,,,Bryce Dallas Howard,,,,PG-13,76,8,2011,1
-Hugo,FALSE,2011,126,170000000,185770160,15770160,Martin Scorsese,FALSE,6,1,Asa Butterfield,,,,Ben Kingsley,,,,Sacha Baron Cohen,,,,PG,93,11,2011,3
-Midnight in Paris,FALSE,2011,96,30000000,151119219,121119219,Woody Allen,FALSE,6,1,Owen Wilson,,,,Rachel McAdams,,,,Kurt Fuller,,,,PG-13,93,5,2011,7
-Moneyball,FALSE,2011,133,50000000,110206216,60206216,Bennett Miller,FALSE,1,0,Brad Pitt,,,,Jonah Hill,,,,Philip Seymour Hoffman,,,,PG-13,94,9,2011,2
-The Tree of Life,FALSE,2011,139,32000000,54674226,22674226,Terrence Malick,FALSE,2,0,Brad Pitt,,,,Sean Penn,,,,Jessica Chastain,,,,PG-13,85,5,2011,11
-War Horse,FALSE,2011,146,66000000,177584879,111584879,Steven Spielberg,FALSE,5,2,Jeremy Irvine,,,,Peter Mullan,,,,Emily Watson,,,,PG-13,75,12,2011,5
-Amour,FALSE,2012,127,8900000,29844753,20944753,Michael Haneke,FALSE,1,0,Jean-Louis Trintignant,,,,Emmanuelle Riva,,,,Isabelle Huppert,,,,PG-13,93,9,2012,19
-Argo,TRUE,2012,120,44500000,232324128,187824128,Ben Affleck,FALSE,0,0,Ben Affleck,,,,Bryan Cranston,,,,Alan Arkin,,,,R,96,10,2012,1
-Beasts of the Southern Wild,FALSE,2012,93,1800000,21107746,19307746,Benh Zeitlin,FALSE,1,0,Quvenzhan� Wallis,,,,Dwight Henry,,,,Levy Easterly,,,,PG-13,87,6,2012,12
-Django Unchained,FALSE,2012,165,100000000,425368238,325368238,Quentin Tarantino,FALSE,2,0,Jamie Foxx,,,,Christoph Waltz,,,,Leonardo DiCaprio,,,,R,87,12,2012,2
-Les Misérables,FALSE,2012,158,61000000,441809770,380809770,Tom Hooper,FALSE,2,1,Hugh Jackman,,,,Russell Crowe,,,,Anne Hathaway,,,,PG-13,69,12,2012,3
-Life of Pi,FALSE,2012,127,120000000,609016565,489016565,Ang Lee,TRUE,3,2,Suraj Sharma,,,,Irrfan Khan,,,,Ayush Tandon,,,,PG,87,11,2012,5
-Lincoln,FALSE,2012,150,65000000,275293450,210293450,Steven Spielberg,FALSE,6,2,Daniel Day-Lewis,,,,Sally Field,,,,David Strathairn,,,,PG-13,89,11,2012,3
-Silver Linings Playbook,FALSE,2012,122,21000000,236412453,215412453,David O. Russell,FALSE,2,0,Bradley Cooper,,,,Jennifer Lawrence,,,,Robert De Niro,,,,R,92,12,2012,3
-Zero Dark Thirty,FALSE,2012,157,40000000,132820716,92820716,Kathryn Bigelow,FALSE,2,1,Jessica Chastain,,,,Jason Clarke,,,,Reda Kateb,,,,R,91,12,2012,1
-American Hustle,FALSE,2013,138,40000000,251171807,211171807,David O. Russell,FALSE,3,0,Christian Bale,,,,Bradley Cooper,,,,Amy Adams,,,,R,92,12,2013,4
-Captain Phillips,FALSE,2013,134,55000000,95000000,40000000,Paul Greengrass,FALSE,1,0,Tom Hanks,,,,Barkhad Abdi,,,,Catherine Keener,,,,PG-13,93,10,2013,2
-Dallas Buyers Club,FALSE,2013,117,5000000,55736588,50736588,Jean-Marc Vall�e,FALSE,0,0,Matthew McConaughey,,,,Jennifer Garner,,,,Jared Leto,,,,R,93,11,2013,10
-Gravity,FALSE,2013,91,105000000,723192705,618192705,Alfonso Cuar�n,TRUE,1,1,Sandra Bullock,,,,George Clooney,,,,Ed Harris,,,,PG-13,96,10,2013,1
-Her,FALSE,2013,126,23000000,47351251,24351251,Spike Jonze,FALSE,1,0,Joaquin Phoenix,,,,Scarlett Johansson,,,,Amy Adams,,,,R,95,1,2014,10
-Nebraska,FALSE,2013,115,12000000,17654912,5654912,Alexander Payne,FALSE,3,0,Bruce Dern,,,,Will Forte,,,,June Squibb,,,,R,91,11,2013,13
-Philomena,FALSE,2013,98,12000000,100129872,88129872,Stephen Frears,FALSE,2,0,Judi Dench,,,,Steve Coogan,,,,Sophie Kennedy Clark,,,,PG-13,90,11,2013,8
-12 Years a Slave,TRUE,2013,134,20000000,187000000,167000000,Steve McQueen,FALSE,1,0,Chiwetel Ejiofor,,,,Michael Fassbender,,,,Lupita Nyong'o,,,,R,95,10,2013,7
-The Wolf of Wall Street,FALSE,2013,180,100000000,392000694,292000694,Martin Scorsese,FALSE,7,1,Leonardo DiCaprio,,,,Jonah Hill,,,,Margot Robbie,,,,R,80,12,2013,4
-American Sniper,FALSE,2014,133,58800000,542307423,483507423,Clint Eastwood,FALSE,5,2,Bradley Cooper,,,,Kyle Gallner,,,,Cole Konis,,,,R,72,1,2015,1
-Birdman or (The Unexpected Virtue of Ignorance),TRUE,2014,119,18000000,103215094,85215094,Alejandro G. I��rritu,TRUE,2,1,Michael Keaton,,,,Emma Stone,,,,Edward Norton,,,,R,91,10,2014,9
-Boyhood,FALSE,2014,165,4000000,44349000,40349000,Richard Linklater,FALSE,1,0,Ellar Coltrane,,,,Ethan Hawke,,,,Patricia Arquette,,,,R,97,7,2014,11
-The Grand Budapest Hotel,FALSE,2014,99,30000000,174600318,144600318,Wes Anderson,FALSE,1,0,Ralph Fiennes,,,,Tony Revolori,,,,Willem Dafoe,,,,R,91,3,2014,6
-The Imitation Game,FALSE,2014,114,14000000,233555708,219555708,Morten Tyldum,FALSE,1,0,Benedict Cumberbatch,,,,Keira Knightley,,,,Matthew Goode,,,,PG-13,90,12,2014,6
-Selma,FALSE,2014,128,20000000,66787908,46787908,Ava DuVernay,FALSE,0,0,David Oyelowo,,,,Carmen Ejogo,,,,Jim France,,,,PG-13,99,12,2014,2
-The Theory of Everything,FALSE,2014,123,15000000,123726688,108726688,James Marsh,FALSE,0,0,Eddie Redmayne,,,,Felicity Jones,,,,Tom Prior,,,,PG-13,80,11,2014,7
-Whiplash,FALSE,2014,106,3300000,13092000,9792000,Damien Chazelle,FALSE,0,0,Miles Teller,,,,J.K. Simmons,,,,Paul Reiser,,,,R,94,10,2014,16
-The Big Short,FALSE,2015,130,28000000,133346506,105346506,Adam McKay,FALSE,1,0,Ryan Gosling,,,,Steve Carell,,,,Christian Bale,,,,R,88,12,2015,6
-Bridge of Spies,FALSE,2015,142,40000000,165478348,125478348,Steven Spielberg,FALSE,7,2,Tom Hanks,,,,Mark Rylance,,,,Amy Ryan,,,,PG-13,90,10,2015,3
-Brooklyn,FALSE,2015,117,11000000,62076141,51076141,John Crowley,FALSE,0,0,Saoirse Ronan,,,,Hugh Gormley,,,,Brid Brennan,,,,PG-13,97,11,2015,9
-Mad Max: Fury Road,FALSE,2015,120,150000000,378858340,228858340,George Miller,FALSE,1,0,Charlize Theron,,,,Tom Hardy,,,,Nicholas Hoult,,,,R,97,5,2015,2
-The Martian,FALSE,2015,144,108000000,630161890,522161890,Ridley Scott,FALSE,3,0,Matt Damon,,,,Jessica Chastain,,,,Jeff Daniels,,,,PG-13,91,10,2015,1
-The Revenant,FALSE,2015,156,135000000,532950503,397950503,Alejandro G. I��rritu,TRUE,3,2,Leonardo DiCaprio,,,,Tom Hardy,,,,Domhnall Gleeson,,,,R,78,1,2016,1
-Room,FALSE,2015,118,13000000,35401758,22401758,Lenny Abrahamson,FALSE,1,0,Brie Larson,,,,Jacob Tremblay,,,,Sean Bridgers,,,,R,93,11,2015,14
-Spotlight,TRUE,2015,129,20000000,98690254,78690254,Tom McCarthy,FALSE,1,0,Mark Ruffalo,,,,Michael Keaton,,,,Rachel McAdams,,,,R,97,11,2015,8
-Arrival,FALSE,2016,116,47000000,203388186,156388186,Denis Villeneuve,FALSE,1,0,Amy Adams,,,,Jeremy Renner,,,,Forest Whitaker,,,,PG-13,94,11,2016,3
-Fences,FALSE,2016,139,24000000,64414761,40414761,Denzel Washington,FALSE,0,0,Denzel Washington,,,,Viola Davis,,,,Stephen McKinley Henderson,,,,PG-13,92,12,2016,6
-Hacksaw Ridge,FALSE,2016,139,40000000,175302354,135302354,Mel Gibson,FALSE,1,1,Andrew Garfield,,,,Richard Pyros,,,,Jacob Warner,,,,R,84,11,2016,3
-Hell or High Water,FALSE,2016,102,12000000,37589296,25589296,David Mackenzie,FALSE,0,0,Dale Dickey,,,,Ben Foster,,,,Chris Pine,,,,R,97,8,2016,8
-Hidden Figures,FALSE,2016,127,25000000,230698791,205698791,Theodore Melfi,FALSE,0,0,Taraji P. Henson,,,,Octavia Spencer,,,,Janelle Mon�e,,,,PG,93,12,2016,1
-La La Land,FALSE,2016,128,30000000,446486224,416486224,Damien Chazelle,TRUE,1,1,Ryan Gosling,,,,Emma Stone,,,,Ami�e Conn,,,,PG-13,91,12,2016,2
-Lion,FALSE,2016,118,12000000,140312928,128312928,Garth Davis,FALSE,0,0,Dev Patel,,,,Nicole Kidman,,,,Sunny Pawar,,,,PG-13,84,1,2017,9
-Manchester by the Sea,FALSE,2016,137,9000000,78988148,69988148,Kenneth Lonergan,FALSE,1,0,Casey Affleck,,,,Ben O'Brien,,,,Kyle Chandler,,,,R,96,12,2016,6
-Moonlight,TRUE,2016,111,4000000,65046687,61046687,Barry Jenkins,FALSE,1,0,Mahershala Ali,,,,Janelle Mon�e,,,,Shariff Earp,,,,R,98,11,2016,11
-Call Me by Your Name,FALSE,2017,132,4000000,41063475,37063475,Luca Guadagnino,FALSE,0,0,Armie Hammer,,,,Timoth�e Chalamet,,,,Michael Stuhlbarg,,,,R,94,1,2018,14
-Darkest Hour,FALSE,2017,125,30000000,150847207,120847207,Joe Wright,FALSE,1,0,Gary Oldman,,,,Kristin Scott Thomas,,,,Ben Mendelsohn,,,,PG-13,84,11,2017,8
-Dunkirk,FALSE,2017,106,100000000,525573161,425573161,Christopher Nolan,FALSE,1,0,Fionn Whitehead,,,,Cillian Murphy,,,,Tom Hardy,,,,PG-13,92,7,2017,1
-Get Out,FALSE,2017,104,4500000,255407969,250907969,Jordan Peele,FALSE,1,0,Daniel Kaluuya,,,,Allison Williams,,,,Bradley Whitford,,,,R,98,2,2017,1
-Lady Bird,FALSE,2017,94,10000000,76858273,66858273,Greta Gerwig,FALSE,2,0,Saoirse Ronan,,,,Laurie Metcalf,,,,Tracy Letts,,,,R,99,12,2017,8
-Phantom Thread,FALSE,2017,130,35000000,47756590,12756590,Paul Thomas Anderson,FALSE,2,0,Daniel Day-Lewis,,,,Vicky Krieps,,,,Lesley Manville,,,,R,91,1,2018,12
-The Post,FALSE,2017,116,50000000,174503458,124503458,Steven Spielberg,FALSE,8,2,Meryl Streep,,,,Tom Hanks,,,,Bob Odenkirk,,,,PG-13,88,1,2018,2
-The Shape of Water,TRUE,2017,123,19500000,194989655,175489655,Guillermo del Toro,TRUE,1,1,Sally Hawkins,,,,Michael Shannon,,,,Richard Jenkins,,,,R,92,12,2017,8
-"Three Billboards Outside Ebbing, Missouri",FALSE,2017,115,15000000,160192031,145192031,Martin McDonagh,FALSE,0,0,Frances McDormand,,,,Sam Rockwell,,,,Woody Harrelson ,,,,R,90,12,2017,7
+Seabiscuit,FALSE,2003,140,87000000,148336445,61336445,Gary Ross,FALSE,0,0,David McCullough,FALSE,0,0,Jeff Bridges,,,,Paul Vincent O'Connor,,,,PG-13,78,7,2003,5
+The Aviator,FALSE,2004,170,110000000,213719942,103719942,Martin Scorsese,FALSE,4,0,Leonardo DiCaprio,FALSE,1,0,Cate Blanchett,,,,Kate Beckinsale,,,,PG-13,86,12,2004,3
+Finding Neverland,FALSE,2004,106,25000000,116766556,91766556,Marc Forster,FALSE,0,0,Johnny Depp,FALSE,2,0,Kate Winslet,,,,Freddie Highmore,,,,PG,83,11,2004,8
+Million Dollar Baby,TRUE,2004,132,30000000,216763646,186763646,Clint Eastwood,TRUE,2,2,Clint Eastwood,FALSE,2,0,Hilary Swank,,,,Morgan Freeman,,,,PG-13,91,1,2005,3
+Ray,FALSE,2004,152,40000000,124731534,84731534,Taylor Hackford,FALSE,1,0,Jamie Foxx,TRUE,1,1,Kerry Washington,,,,Regina King,,,,PG-13,80,10,2004,2
+Sideways,FALSE,2004,127,16000000,109502303,93502303,Alexander Payne,FALSE,1,0,Paul Giamatti,FALSE,0,0,Thomas Haden Church,,,,Virginia Madsen,,,,R,97,10,2004,11
+Brokeback Mountain,FALSE,2005,134,14000000,178043761,164043761,Ang Lee,TRUE,2,1,Heath Ledger,FALSE,1,0,Jake Gyllenhaal,,,,Randy Quaid,,,,R,87,1,2006,4
+Capote,FALSE,2005,114,7000000,49084830,42084830,Bennett Miller,FALSE,1,0,Philip Seymour Hoffman,TRUE,1,1,Allie Mickelson,,,,Kelci Stephenson,,,,R,90,9,2005,15
+Crash,TRUE,2005,112,6500000,98410061,91910061,Paul Haggis,FALSE,1,0,Sandra Bullock,FALSE,0,0,Don Cheadle,,,,Matt Dillon,,,,R,74,5,2005,4
+"Good Night, and Good Luck.",FALSE,2005,93,7000000,54600000,47600000,George Clooney,FALSE,1,0,David Strathairn,FALSE,1,0,George Clooney,,,,"Robert Downey, Jr.",,,,PG,93,10,2005,7
+Munich,FALSE,2005,164,70000000,130358911,60358911,Steven Spielberg,FALSE,4,2,Eric Bana,FALSE,0,0,Daniel Craig,,,,Ciar�n Hinds,,,,R,78,1,2006,6
+Babel,FALSE,2006,143,25000000,135330182,110330182,Alejandro G. I��rritu,FALSE,0,0,Brad Pitt,FALSE,0,0,Cate Blanchett,,,,Mohamed Akhzam,,,,R,69,10,2006,6
+The Departed,TRUE,2006,151,90000000,291465034,201465034,Martin Scorsese,TRUE,5,1,Leonardo DiCaprio,FALSE,2,0,Matt Damon,,,,Jack Nicholson,,,,R,91,10,2006,1
+Letters from Iwo Jima,FALSE,2006,141,19000000,68673228,49673228,Clint Eastwood,FALSE,2,2,Ken Watanabe,FALSE,0,0,Kazunari Ninomiya,,,,Tsuyoshi Ihara,,,,R,91,12,2006,14
+Little Miss Sunshine,FALSE,2006,101,8000000,100523181,92523181,Jonathan Dayton,FALSE,0,0,Abigail Breslin,FALSE,0,0,Greg Kinnear,,,,Steve Carell,,,,R,91,7,2006,3
+The Queen,FALSE,2006,103,15000000,123384128,108384128,Stephen Frears,FALSE,2,0,Helen Mirren,FALSE,1,1,James Cromwell,,,,Alex Jennings,,,,PG-13,96,9,2006,9
+Atonement,FALSE,2007,123,30000000,131016624,101016624,Joe Wright,FALSE,0,0,Saoirse Ronan,FALSE,0,0,Ailidh Mackay,,,,James McAvoy,,,,R,83,1,2008,9
+Juno,FALSE,2007,96,7500000,231411584,223911584,Jason Reitman,FALSE,1,0,Ellen Page,FALSE,1,0,Michael Cera,,,,Jennifer Garner,,,,PG-13,94,12,2007,2
+Michael Clayton,FALSE,2007,119,25000000,92991835,67991835,Tony Gilroy,FALSE,1,0,Tom Wilkinson,FALSE,1,0,Michael O'Keefe,,,,Tilda Swinton,,,,R,91,10,2007,4
+No Country for Old Men,TRUE,2007,122,25000000,171627166,146627166,Coen Brothers,TRUE,1,1,Tommy Lee Jones,FALSE,1,0,Javier Bardem,,,,Josh Brolin,,,,R,93,11,2007,5
+There Will Be Blood,FALSE,2007,158,25000000,77208711,52208711,Paul Thomas Anderson,FALSE,1,0,Daniel Day-Lewis,TRUE,2,1,Paul Dano,,,,Ciar�n Hinds,,,,R,91,12,2007,9
+The Curious Case of Benjamin Button,FALSE,2008,166,150000000,333932083,183932083,David Fincher,FALSE,1,0,Brad Pitt,FALSE,1,0,Cate Blanchett,,,,Julia Ormond,,,,PG-13,72,12,2008,3
+Frost/Nixon,FALSE,2008,122,25000000,18593156,-6406844,Ron Howard,FALSE,2,1,Michael Sheen,FALSE,0,0,Frank Langella,,,,Sam Rockwell,,,,R,93,12,2008,16
+Milk,FALSE,2008,128,20000000,54586584,34586584,Gus Van Sant,FALSE,2,0,Sean Penn,TRUE,3,2,Emile Hirsch,,,,Josh Brolin,,,,R,93,1,2009,9
+The Reader,FALSE,2008,124,32000000,113019290,81019290,Stephen Daldry,FALSE,3,0,Ralph Fiennes,FALSE,1,0,David Kross,,,,Kate Winslet,,,,R,63,1,2009,12
+Slumdog Millionaire,TRUE,2008,120,15000000,377910544,362910544,Danny Boyle,TRUE,1,1,Dev Patel,FALSE,0,0,Saurabh Shukla,,,,Anil Kapoor,,,,R,91,11,2008,3
+Avatar,FALSE,2009,162,237000000,2787965087,2550965087,James Cameron,FALSE,1,1,Sam Worthington,FALSE,0,0,Zoe Saldana,,,,Sigourney Weaver,,,,PG-13,82,12,2009,1
+The Blind Side,FALSE,2009,129,29000000,309208309,280208309,John Lee Hancock,FALSE,0,0,Sandra Bullock,FALSE,1,1,Tim McGraw,,,,Quinton Aaron,,,,PG-13,66,11,2009,1
+District 9,FALSE,2009,112,30000000,210819611,180819611,Neill Blomkamp,FALSE,0,0,Sharlto Copley,FALSE,0,0,Jason Cope,,,,Nathalie Boltt,,,,R,90,8,2009,1
+An Education,FALSE,2009,100,7500000,26096852,18596852,Lone Scherfig,FALSE,0,0,Carey Mulligan,FALSE,1,0,Olivia Williams,,,,Alfred Molina,,,,PG-13,94,10,2009,14
+The Hurt Locker,TRUE,2009,131,15000000,49230772,34230772,Kathryn Bigelow,TRUE,1,1,Jeremy Renner,FALSE,1,0,Anthony Mackie,,,,Brian Geraghty,,,,R,97,6,2009,13
+Inglourious Basterds,FALSE,2009,153,70000000,321455689,251455689,Quentin Tarantino,FALSE,2,0,Brad Pitt,FALSE,1,0,M�lanie Laurent,,,,Christoph Waltz,,,,R,89,8,2009,1
+A Serious Man,FALSE,2009,106,7000000,31430334,24430334,Coen Brothers,FALSE,1,1,Michael Stuhlbarg,FALSE,0,0,Richard Kind,,,,Fred Melamed,,,,R,90,10,2009,12
+Up,FALSE,2009,96,175000000,735099082,560099082,Pete Docter,FALSE,0,0,Edward Asner,FALSE,0,0,Christopher Plummer,,,,Jordan Nagai,,,,PG,98,5,2009,1
+Up in the Air,FALSE,2009,109,25000000,163670000,138670000,Jason Reitman,FALSE,2,0,George Clooney,FALSE,2,0,Anna Kendrick,,,,Vera Farmiga,,,,R,90,9,2009,6
+Black Swan,FALSE,2010,108,13000000,329398046,316398046,Darren Aronofsky,FALSE,1,0,Natalie Portman,TRUE,1,1,Mila Kunis,,,,Vincent Cassel,,,,R,85,12,2010,5
+The Fighter,FALSE,2010,116,25000000,93617009,68617009,David O. Russell,FALSE,1,0,Mark Wahlberg,FALSE,0,0,Christian Bale,,,,Amy Adams,,,,R,90,12,2010,4
+Inception,FALSE,2010,148,160000000,825532764,665532764,Christopher Nolan,FALSE,0,0,Leonardo DiCaprio,FALSE,2,0,Joseph Gordon-Levitt,,,,Ellen Page,,,,PG-13,87,7,2010,1
+The Kids Are All Right,FALSE,2010,106,3500000,34705850,31205850,Lisa Cholodenko,FALSE,0,0,Julianne Moore,FALSE,2,0,Annette Bening,,,,Mark Ruffalo,,,,R,92,7,2010,10
+The King's Speech,TRUE,2010,118,15000000,414211549,399211549,Tom Hooper,TRUE,1,1,Colin Firth,TRUE,1,1,Helena Bonham Carter,,,,Geoffrey Rush,,,,R,94,9,2010,4
+127 Hours,FALSE,2010,94,18000000,35692920,17692920,Danny Boyle,FALSE,1,1,James Franco,FALSE,1,0,Kate Mara,,,,Amber Tamblyn,,,,R,93,11,2010,11
+The Social Network,FALSE,2010,120,40000000,224920315,184920315,David Fincher,FALSE,2,0,Jesse Eisenberg,FALSE,1,0,Andrew Garfield,,,,Justin Timberlake,,,,PG-13,96,10,2010,1
+Toy Story 3,FALSE,2010,103,200000000,1066969703,866969703,Lee Unkrich,FALSE,0,0,Tom Hanks,FALSE,3,2,Tim Allen,,,,Ned Beatty,,,,G,98,6,2010,1
+True Grit,FALSE,2010,110,38000000,252276927,214276927,Coen Brothers,FALSE,2,1,Jeff Bridges,FALSE,2,1,Hailee Steinfeld,,,,Matt Damon,,,,PG-13,96,12,2010,1
+Winter's Bone,FALSE,2010,100,2000000,13831503,11831503,Debra Granik,FALSE,0,0,Jennifer Lawrence,FALSE,1,0,Isaiah Stone,,,,Ashlee Thompson,,,,R,94,6,2010,16
+The Artist,TRUE,2011,100,15000000,133432856,118432856,Michel Hazanavicius,TRUE,1,1,Jean Dujardin,FALSE,1,1,B�r�nice Bejo,,,,John Goodman,,,,PG-13,95,1,2012,11
+The Descendants,FALSE,2011,115,20000000,177243185,157243185,Alexander Payne,FALSE,2,0,George Clooney,FALSE,3,0,Shailene Woodley,,,,Amara Miller,,,,R,88,11,2011,7
+Extremely Loud & Incredibly Close,FALSE,2011,129,40000000,55247881,15247881,Stephen Daldry,FALSE,3,0,Tom Hanks,FALSE,3,2,Thomas Horn,,,,Sandra Bullock,,,,PG-13,45,12,2011,4
+The Help,FALSE,2011,146,25000000,216639112,191639112,Tate Taylor,FALSE,0,0,Emma Stone,FALSE,0,0,Viola Davis,,,,Bryce Dallas Howard,,,,PG-13,76,8,2011,1
+Hugo,FALSE,2011,126,170000000,185770160,15770160,Martin Scorsese,FALSE,5,1,Asa Butterfield,FALSE,0,0,Ben Kingsley,,,,Sacha Baron Cohen,,,,PG,93,11,2011,3
+Midnight in Paris,FALSE,2011,96,30000000,151119219,121119219,Woody Allen,FALSE,6,1,Owen Wilson,FALSE,0,0,Rachel McAdams,,,,Kurt Fuller,,,,PG-13,93,5,2011,7
+Moneyball,FALSE,2011,133,50000000,110206216,60206216,Bennett Miller,FALSE,1,0,Brad Pitt,FALSE,2,0,Jonah Hill,,,,Philip Seymour Hoffman,,,,PG-13,94,9,2011,2
+The Tree of Life,FALSE,2011,139,32000000,54674226,22674226,Terrence Malick,FALSE,2,0,Brad Pitt,FALSE,2,0,Sean Penn,,,,Jessica Chastain,,,,PG-13,85,5,2011,11
+War Horse,FALSE,2011,146,66000000,177584879,111584879,Steven Spielberg,FALSE,4,2,Jeremy Irvine,FALSE,0,0,Peter Mullan,,,,Emily Watson,,,,PG-13,75,12,2011,5
+Amour,FALSE,2012,127,8900000,29844753,20944753,Michael Haneke,FALSE,1,0,Jean-Louis Trintignant,FALSE,0,0,Emmanuelle Riva,,,,Isabelle Huppert,,,,PG-13,93,9,2012,19
+Argo,TRUE,2012,120,44500000,232324128,187824128,Ben Affleck,FALSE,0,0,Ben Affleck,FALSE,0,0,Bryan Cranston,,,,Alan Arkin,,,,R,96,10,2012,1
+Beasts of the Southern Wild,FALSE,2012,93,1800000,21107746,19307746,Benh Zeitlin,FALSE,1,0,Quvenzhan� Wallis,FALSE,1,0,Dwight Henry,,,,Levy Easterly,,,,PG-13,87,6,2012,12
+Django Unchained,FALSE,2012,165,100000000,425368238,325368238,Quentin Tarantino,FALSE,2,0,Jamie Foxx,FALSE,1,1,Christoph Waltz,,,,Leonardo DiCaprio,,,,R,87,12,2012,2
+Les Misérables,FALSE,2012,158,61000000,441809770,380809770,Tom Hooper,FALSE,1,1,Hugh Jackman,FALSE,1,0,Russell Crowe,,,,Anne Hathaway,,,,PG-13,69,12,2012,3
+Life of Pi,FALSE,2012,127,120000000,609016565,489016565,Ang Lee,TRUE,3,2,Suraj Sharma,FALSE,0,0,Irrfan Khan,,,,Ayush Tandon,,,,PG,87,11,2012,5
+Lincoln,FALSE,2012,150,65000000,275293450,210293450,Steven Spielberg,FALSE,5,2,Daniel Day-Lewis,TRUE,3,2,Sally Field,,,,David Strathairn,,,,PG-13,89,11,2012,3
+Silver Linings Playbook,FALSE,2012,122,21000000,236412453,215412453,David O. Russell,FALSE,2,0,Bradley Cooper,FALSE,1,0,Jennifer Lawrence,,,,Robert De Niro,,,,R,92,12,2012,3
+Zero Dark Thirty,FALSE,2012,157,40000000,132820716,92820716,Kathryn Bigelow,FALSE,2,1,Jessica Chastain,FALSE,1,0,Jason Clarke,,,,Reda Kateb,,,,R,91,12,2012,1
+American Hustle,FALSE,2013,138,40000000,251171807,211171807,David O. Russell,FALSE,3,0,Christian Bale,FALSE,1,0,Bradley Cooper,,,,Amy Adams,,,,R,92,12,2013,4
+Captain Phillips,FALSE,2013,134,55000000,95000000,40000000,Paul Greengrass,FALSE,1,0,Tom Hanks,FALSE,3,2,Barkhad Abdi,,,,Catherine Keener,,,,PG-13,93,10,2013,2
+Dallas Buyers Club,FALSE,2013,117,5000000,55736588,50736588,Jean-Marc Vall�e,FALSE,0,0,Matthew McConaughey,TRUE,1,1,Jennifer Garner,,,,Jared Leto,,,,R,93,11,2013,10
+Gravity,FALSE,2013,91,105000000,723192705,618192705,Alfonso Cuar�n,TRUE,1,1,Sandra Bullock,FALSE,1,1,George Clooney,,,,Ed Harris,,,,PG-13,96,10,2013,1
+Her,FALSE,2013,126,23000000,47351251,24351251,Spike Jonze,FALSE,1,0,Joaquin Phoenix,FALSE,2,0,Scarlett Johansson,,,,Amy Adams,,,,R,95,1,2014,10
+Nebraska,FALSE,2013,115,12000000,17654912,5654912,Alexander Payne,FALSE,3,0,Bruce Dern,FALSE,1,0,Will Forte,,,,June Squibb,,,,R,91,11,2013,13
+Philomena,FALSE,2013,98,12000000,100129872,88129872,Stephen Frears,FALSE,2,0,Judi Dench,FALSE,5,0,Steve Coogan,,,,Sophie Kennedy Clark,,,,PG-13,90,11,2013,8
+12 Years a Slave,TRUE,2013,134,20000000,187000000,167000000,Steve McQueen,FALSE,1,0,Chiwetel Ejiofor,FALSE,1,0,Michael Fassbender,,,,Lupita Nyong'o,,,,R,95,10,2013,7
+The Wolf of Wall Street,FALSE,2013,180,100000000,392000694,292000694,Martin Scorsese,FALSE,6,1,Leonardo DiCaprio,FALSE,3,0,Jonah Hill,,,,Margot Robbie,,,,R,80,12,2013,4
+American Sniper,FALSE,2014,133,58800000,542307423,483507423,Clint Eastwood,FALSE,2,2,Bradley Cooper,FALSE,2,0,Kyle Gallner,,,,Cole Konis,,,,R,72,1,2015,1
+Birdman or (The Unexpected Virtue of Ignorance),TRUE,2014,119,18000000,103215094,85215094,Alejandro G. I��rritu,TRUE,1,1,Michael Keaton,FALSE,1,0,Emma Stone,,,,Edward Norton,,,,R,91,10,2014,9
+Boyhood,FALSE,2014,165,4000000,44349000,40349000,Richard Linklater,FALSE,1,0,Ellar Coltrane,FALSE,0,0,Ethan Hawke,,,,Patricia Arquette,,,,R,97,7,2014,11
+The Grand Budapest Hotel,FALSE,2014,99,30000000,174600318,144600318,Wes Anderson,FALSE,1,0,Ralph Fiennes,FALSE,1,0,Tony Revolori,,,,Willem Dafoe,,,,R,91,3,2014,6
+The Imitation Game,FALSE,2014,114,14000000,233555708,219555708,Morten Tyldum,FALSE,1,0,Benedict Cumberbatch,FALSE,1,0,Keira Knightley,,,,Matthew Goode,,,,PG-13,90,12,2014,6
+Selma,FALSE,2014,128,20000000,66787908,46787908,Ava DuVernay,FALSE,0,0,David Oyelowo,FALSE,0,0,Carmen Ejogo,,,,Jim France,,,,PG-13,99,12,2014,2
+The Theory of Everything,FALSE,2014,123,15000000,123726688,108726688,James Marsh,FALSE,0,0,Eddie Redmayne,TRUE,1,1,Felicity Jones,,,,Tom Prior,,,,PG-13,80,11,2014,7
+Whiplash,FALSE,2014,106,3300000,13092000,9792000,Damien Chazelle,FALSE,0,0,Miles Teller,FALSE,0,0,J.K. Simmons,,,,Paul Reiser,,,,R,94,10,2014,16
+The Big Short,FALSE,2015,130,28000000,133346506,105346506,Adam McKay,FALSE,1,0,Ryan Gosling,FALSE,1,0,Steve Carell,,,,Christian Bale,,,,R,88,12,2015,6
+Bridge of Spies,FALSE,2015,142,40000000,165478348,125478348,Steven Spielberg,FALSE,5,2,Tom Hanks,FALSE,3,2,Mark Rylance,,,,Amy Ryan,,,,PG-13,90,10,2015,3
+Brooklyn,FALSE,2015,117,11000000,62076141,51076141,John Crowley,FALSE,0,0,Saoirse Ronan,FALSE,1,0,Hugh Gormley,,,,Brid Brennan,,,,PG-13,97,11,2015,9
+Mad Max: Fury Road,FALSE,2015,120,150000000,378858340,228858340,George Miller,FALSE,1,0,Charlize Theron,FALSE,1,1,Tom Hardy,,,,Nicholas Hoult,,,,R,97,5,2015,2
+The Martian,FALSE,2015,144,108000000,630161890,522161890,Ridley Scott,FALSE,3,0,Matt Damon,FALSE,2,0,Jessica Chastain,,,,Jeff Daniels,,,,PG-13,91,10,2015,1
+The Revenant,FALSE,2015,156,135000000,532950503,397950503,Alejandro G. I��rritu,TRUE,3,2,Leonardo DiCaprio,TRUE,4,1,Tom Hardy,,,,Domhnall Gleeson,,,,R,78,1,2016,1
+Room,FALSE,2015,118,13000000,35401758,22401758,Lenny Abrahamson,FALSE,1,0,Brie Larson,TRUE,1,1,Jacob Tremblay,,,,Sean Bridgers,,,,R,93,11,2015,14
+Spotlight,TRUE,2015,129,20000000,98690254,78690254,Tom McCarthy,FALSE,1,0,Mark Ruffalo,FALSE,0,0,Michael Keaton,,,,Rachel McAdams,,,,R,97,11,2015,8
+Arrival,FALSE,2016,116,47000000,203388186,156388186,Denis Villeneuve,FALSE,1,0,Amy Adams,FALSE,1,0,Jeremy Renner,,,,Forest Whitaker,,,,PG-13,94,11,2016,3
+Fences,FALSE,2016,139,24000000,64414761,40414761,Denzel Washington,FALSE,0,0,Denzel Washington,FALSE,4,1,Viola Davis,,,,Stephen McKinley Henderson,,,,PG-13,92,12,2016,6
+Hacksaw Ridge,FALSE,2016,139,40000000,175302354,135302354,Mel Gibson,FALSE,1,1,Andrew Garfield,FALSE,1,0,Richard Pyros,,,,Jacob Warner,,,,R,84,11,2016,3
+Hell or High Water,FALSE,2016,102,12000000,37589296,25589296,David Mackenzie,FALSE,0,0,Dale Dickey,FALSE,0,0,Ben Foster,,,,Chris Pine,,,,R,97,8,2016,8
+Hidden Figures,FALSE,2016,127,25000000,230698791,205698791,Theodore Melfi,FALSE,0,0,Taraji P. Henson,FALSE,0,0,Octavia Spencer,,,,Janelle Mon�e,,,,PG,93,12,2016,1
+La La Land,FALSE,2016,128,30000000,446486224,416486224,Damien Chazelle,TRUE,1,1,Ryan Gosling,FALSE,2,0,Emma Stone,,,,Ami�e Conn,,,,PG-13,91,12,2016,2
+Lion,FALSE,2016,118,12000000,140312928,128312928,Garth Davis,FALSE,0,0,Dev Patel,FALSE,0,0,Nicole Kidman,,,,Sunny Pawar,,,,PG-13,84,1,2017,9
+Manchester by the Sea,FALSE,2016,137,9000000,78988148,69988148,Kenneth Lonergan,FALSE,1,0,Casey Affleck,TRUE,1,1,Ben O'Brien,,,,Kyle Chandler,,,,R,96,12,2016,6
+Moonlight,TRUE,2016,111,4000000,65046687,61046687,Barry Jenkins,FALSE,1,0,Mahershala Ali,FALSE,0,0,Janelle Mon�e,,,,Shariff Earp,,,,R,98,11,2016,11
+Call Me by Your Name,FALSE,2017,132,4000000,41063475,37063475,Luca Guadagnino,FALSE,0,0,Armie Hammer,FALSE,0,0,Timoth�e Chalamet,,,,Michael Stuhlbarg,,,,R,94,1,2018,14
+Darkest Hour,FALSE,2017,125,30000000,150847207,120847207,Joe Wright,FALSE,1,0,Gary Oldman,TRUE,1,1,Kristin Scott Thomas,,,,Ben Mendelsohn,,,,PG-13,84,11,2017,8
+Dunkirk,FALSE,2017,106,100000000,525573161,425573161,Christopher Nolan,FALSE,1,0,Fionn Whitehead,FALSE,0,0,Cillian Murphy,,,,Tom Hardy,,,,PG-13,92,7,2017,1
+Get Out,FALSE,2017,104,4500000,255407969,250907969,Jordan Peele,FALSE,1,0,Daniel Kaluuya,FALSE,1,0,Allison Williams,,,,Bradley Whitford,,,,R,98,2,2017,1
+Lady Bird,FALSE,2017,94,10000000,76858273,66858273,Greta Gerwig,FALSE,2,0,Saoirse Ronan,FALSE,2,0,Laurie Metcalf,,,,Tracy Letts,,,,R,99,12,2017,8
+Phantom Thread,FALSE,2017,130,35000000,47756590,12756590,Paul Thomas Anderson,FALSE,2,0,Daniel Day-Lewis,FALSE,3,2,Vicky Krieps,,,,Lesley Manville,,,,R,91,1,2018,12
+The Post,FALSE,2017,116,50000000,174503458,124503458,Steven Spielberg,FALSE,5,2,Meryl Streep,FALSE,15,2,Tom Hanks,,,,Bob Odenkirk,,,,PG-13,88,1,2018,2
+The Shape of Water,TRUE,2017,123,19500000,194989655,175489655,Guillermo del Toro,TRUE,1,1,Sally Hawkins,FALSE,1,0,Michael Shannon,,,,Richard Jenkins,,,,R,92,12,2017,8
+"Three Billboards Outside Ebbing, Missouri",FALSE,2017,115,15000000,160192031,145192031,Martin McDonagh,FALSE,0,0,Frances McDormand,FALSE,2,2,Sam Rockwell,,,,Woody Harrelson ,,,,R,90,12,2017,7
