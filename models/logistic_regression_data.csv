@@ -1,0 +1,12 @@
+C,penalty,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+1,l1,0.286,0.727,0.25,0.571,0.444,0.0,0.333,0.0,0.333,0.333,0.328,0.824
+C,penalty,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+1,l2,0.4,0.286,0.0,0.571,0.571,0.286,0.571,0.667,0.545,0.25,0.415,0.84
+C,penalty,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+10,l1,0.2,0.364,0.4,0.0,0.4,0.25,0.2,0.222,0.4,0.4,0.284,0.768
+C,penalty,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+10,l2,0.286,0.75,0.667,0.286,0.857,0.25,0.6,0.0,0.0,0.5,0.42,0.832
+C,penalty,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+100,l1,0.4,0.222,0.4,0.182,0.222,0.5,0.0,0.0,0.444,0.0,0.237,0.748
+C,penalty,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+100,l2,0.0,0.571,0.333,0.333,0.333,0.286,0.0,0.333,0.75,0.286,0.323,0.812

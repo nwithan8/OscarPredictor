@@ -1,0 +1,18 @@
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+1,0.01,0.364,0.5,0.5,0.286,0.571,0.667,0.5,0.25,0.5,0.75,0.489,0.832
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+1,0.1,0.4,0.4,0.286,0.4,0.444,0.333,0.333,0.667,0.0,0.4,0.366,0.856
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+1,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.84
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+10,0.01,0.286,0.4,0.182,0.0,0.0,0.308,0.333,0.5,0.333,0.4,0.274,0.736
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+10,0.1,0.0,0.333,0.0,0.4,0.333,0.667,0.4,0.571,0.5,0.0,0.32,0.856
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+10,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.84
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+100,0.01,0.444,0.5,0.286,0.444,0.0,0.4,0.286,0.4,0.444,0.0,0.32,0.8
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+100,0.1,0.0,0.0,0.4,0.286,0.667,0.4,0.0,0.286,0.0,0.333,0.237,0.836
+C,gamma,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+100,1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.84
