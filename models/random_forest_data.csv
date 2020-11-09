@@ -1,22 +1,12 @@
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-1,0.182,0.333,0.333,0.286,0.667,0.5,0.0,0.667,0.545,0.444,0.396,0.8
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-50,0.4,0.0,0.0,0.0,0.4,0.0,0.0,0.0,0.0,0.4,0.12,0.844
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-100,0.0,0.0,0.667,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.067,0.836
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-150,0.4,0.0,0.333,0.0,0.0,0.0,0.0,0.4,0.4,0.0,0.153,0.844
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-200,0.0,0.0,0.4,0.0,0.0,0.0,0.0,0.0,0.4,0.0,0.08,0.84
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-250,0.0,0.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.08,0.848
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-300,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.0,0.0,0.04,0.844
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-350,0.4,0.667,0.4,0.0,0.0,0.0,0.333,0.0,0.4,0.0,0.22,0.856
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-400,0.4,0.4,0.0,0.0,0.0,0.4,0.286,0.4,0.0,0.0,0.189,0.844
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-450,0.0,0.0,0.4,0.25,0.0,0.0,0.0,0.286,0.667,0.0,0.16,0.836
-n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
-500,0.0,0.4,0.4,0.0,0.0,0.0,0.0,0.4,0.0,0.4,0.16,0.848
+n_estimators,Round 1,Round 2,Round 3,Round 4,Round 5,Round 6,Round 7,Round 8,Round 9,Round 10,Avg F1 Score,Avg Accuracy
+1,0.444,0.25,0.5,0.4,0.286,0.286,0.0,0.286,0.333,0.0,0.278,0.808
+50,0.0,0.0,0.0,0.0,0.333,0.4,0.0,0.0,0.0,0.0,0.073,0.836
+100,0.0,0.0,0.0,0.333,0.4,0.0,0.0,0.4,0.0,0.0,0.113,0.848
+150,0.4,0.667,0.4,0.0,0.0,0.0,0.4,0.333,0.0,0.25,0.245,0.852
+200,0.0,0.0,0.0,0.0,0.0,0.333,0.4,0.0,0.0,0.4,0.113,0.848
+250,0.0,0.4,0.0,0.286,0.0,0.4,0.4,0.4,0.0,0.25,0.214,0.844
+300,0.0,0.4,0.0,0.0,0.4,0.333,0.286,0.0,0.0,0.0,0.142,0.844
+350,0.4,0.0,0.0,0.0,0.0,0.4,0.4,0.0,0.0,0.0,0.12,0.852
+400,0.0,0.0,0.0,0.4,0.4,0.4,0.0,0.4,0.4,0.0,0.2,0.848
+450,0.4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.0,0.08,0.848
+500,0.0,0.0,0.333,0.0,0.0,0.0,0.0,0.4,0.4,0.0,0.113,0.848
