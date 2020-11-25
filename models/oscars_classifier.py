@@ -6,7 +6,13 @@ def main(movies):
     file = open("oscars_classifier.pkl", 'rb')
     classifier = pickle.load(file)
     file.close()
-    predictions = classifier.predict(movies)
+    
+    X = []
+    for item in movies:
+        movie = item[0:4] + item[9:] + [item[5]] + [item[4]] + item[6:9]
+        X.append(movie)
+        
+    predictions = classifier.predict(X)
     return predictions
 
 if __name__ == "__main__":
