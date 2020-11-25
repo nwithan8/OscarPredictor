@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form method="POST" action="/create">
+        <h2>Movie Details</h2>
+              {{ form.movie.title.label }}
+              {{ form.movie.title }}
+              {% if form.movie.title.errors %}
+                <ul class="errors">
+                  {% for error in form.movie.title.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+              {{ form.movie.runtime.label }}
+              {{ form.movie.runtime }}
+              {% if form.movie.runtime.errors %}
+                <ul class="errors">
+                  {% for error in form.movie.runtime.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+              {{ form.movie.budget.label }}
+              {{ form.movie.budget }}
+              {% if form.movie.budget.errors %}
+                <ul class="errors">
+                  {% for error in form.movie.budget.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+              {{ form.movie.revenue.label }}
+              {{ form.movie.revenue }}
+              {% if form.movie.revenue.errors %}
+                <ul class="errors">
+                  {% for error in form.movie.revenue.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+              {{ form.movie.rating.label }}
+              {{ form.movie.rating }}
+              {% if form.movie.rating.errors %}
+                <ul class="errors">
+                  {% for error in form.movie.rating.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+              {{ form.movie.month.label }}
+              {{ form.movie.month }}
+              {% if form.movie.month.errors %}
+                <ul class="errors">
+                  {% for error in form.movie.month.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                    <br>
+              {{ form.movie.box_office.label }}
+              {{ form.movie.box_office }}
+              {% if form.movie.box_office.errors %}
+                <ul class="errors">
+                  {% for error in form.movie.box_office.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+        <br>
+        <h2>Director Details</h2>
+              {{ form.director.person_name.label }}
+              {{ form.director.person_name }}
+              {% if form.director.person_name.errors %}
+                <ul class="errors">
+                  {% for error in form.director.person_name.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+        <br>
+        <h2>Actor 1 Details</h2>
+              {{ form.actor1.person_name.label }}
+              {{ form.actor1.person_name }}
+              {% if form.actor1.person_name.errors %}
+                <ul class="errors">
+                  {% for error in form.actor1.person_name.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+        <br>
+        <h2>Actor 2 Details</h2>
+              {{ form.actor2.person_name.label }}
+              {{ form.actor2.person_name }}
+              {% if form.actor2.person_name.errors %}
+                <ul class="errors">
+                  {% for error in form.actor2.person_name.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+        <br>
+        <h2>Actor 3 Details</h2>
+              {{ form.actor3.person_name.label }}
+              {{ form.actor3.person_name }}
+              {% if form.actor3.person_name.errors %}
+                <ul class="errors">
+                  {% for error in form.actor3.person_name.errors %}
+                        <li>{{ error }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+                <br>
+        <br>
+        {{ form.submit }}
+    </form>
+</body>
+</html>
