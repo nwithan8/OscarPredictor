@@ -1,42 +1,72 @@
-html { background-color: white; } 
-
-header { text-align:center; }
-
-p {
-    text-align: center;
-    color: black;
-    font-size: larger;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.container {
+  padding: 5px;
+  background-color: white;
 }
-
 img {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
   width: auto;
   margin:auto;
   display:block
 } 
-
-.header-image {
-  width:80%;
+h2 { 
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
 }
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  justify-content: center;
-  display: flex;  
-  justify-content: center;  
-}
-
-.dropdown select {
+p {
+  margin-top:-25px;
+  text-align: center;
   color: black;
-  background-color: #D3D3D3;
-  width: 150px;
-  height: 50px;
-  border-radius: 10px;
-  border: 0;
-  text-align-last: center;
   font-size: larger;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3 { 
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 100;
+}
+.container1 {
+  padding: 5px;
+  background-color: rgb(240, 240, 240);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 40px;
+  padding: 10px;
+}
+caption {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 45px;
+  padding: 25px;
+  font-weight: 300;
+}
+.t1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+}
+.t1 td, #t1 th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.t1 tr:nth-child(even){background-color: #f2f2f2;}
+
+.t1 th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+ 
+}
+.year {
+  display: flex;
+  justify-content: center;
+}
+.container2 {
+  padding-top: 15px;
+  background-color: rgb(222, 222, 222);
 }

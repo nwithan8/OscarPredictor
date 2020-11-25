@@ -6,41 +6,251 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     
-    <header>
-        <div id="header-image"> 
-            <img src="img/header.png"> 
-        </div> 
-    </header>
-   
     <body>
-        <div id="project-description">
-            <p> Sample text explaining the functionality of our project</p><br><br>
+        <div class='container'>
+            <div id="header-image"> 
+                <img src="img/header.png"> 
+            </div>
+            <h2> Oscar Predictions </h2>
+            <div id="project-description">
+                <p> Sample text explaining the functionality of our project</p><br><br>
+            </div>
         </div>
-        <div class="dropdown">
-            <select id="select-year">
-                <option>Select Year</option>
-                <option value="2020">2020</option>
-                <option value="2019">2019</option>
-                <option value="2018">2018</option>
-                <option value="2017">2017</option>
-                <option value="2016">2016</option>
-                <option value="2015">2015</option>
-                <option value="2014">2014</option>
-                <option value="2013">2013</option>
-                <option value="2012">2012</option>
-                <option value="2011">2011</option>
-                <option value="2010">2010</option>
-                <option value="2009">2009</option>
-                <option value="2008">2008</option>
-                <option value="2007">2007</option>
-                <option value="2006">2006</option>
-                <option value="2005">2005</option>
-                <option value="2004">2004</option>
-                <option value="2003">2003</option>
-                <option value="2002">2002</option>
-                <option value="2001">2001</option>
-                <option value="2000">2000</option>
-            </select>
+        
+        <div class='container1' id="model-performance">
+            <h3> Model Performance </h3>
+            <p> Sample text explaining our model's algorithm and accuracy</p>
+            <div class="grid-container">
+                <div class="year">
+                    <table class="t1">
+                        <col style="width:60%">
+	                    <col style="width:20%">
+	                    <col style="width:20%">
+                        <caption>2017</caption>
+                        <tr>
+                            <th>Nominees</th>
+                            <th>Probability of Winning</th>	
+                            <th>Winner</th>		
+                        </tr>
+                        <tr>
+                            <td>Phantom Thread</td>
+                            <td>6.9%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>The Post</td>
+                            <td>6.9%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Dunkirk</td>
+                            <td>8.5%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Three Billboards Outside Ebbing, Missouri</td>
+                            <td>11.5%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>Call Me by Your Name</td>
+                            <td>12.3%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>Darkest Hour</td>
+                            <td>14.6%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Lady Bird</td>
+                            <td>28.5%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Get Out</td>
+                            <td>35.4%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr style="font-weight:bold">
+                            <td>The Shape of Water</td>
+                            <td>41.5%</td>
+                            <td>WON</td>		
+                        </tr>
+                    </table>
+                </div>
+                <div class="year">
+                    <table class="t1">
+                        <caption>2019</caption>
+                        <col style="width:60%">
+	                    <col style="width:20%">
+	                    <col style="width:20%">
+                        <tr>
+                            <th>Nominees</th>
+                            <th>Probability of Winning</th>	
+                            <th>Winner</th>		
+                        </tr>
+                        <tr>
+                            <td>Ford v Ferrari</td>
+                            <td>8.5%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>Once Upon a Time in Hollywood</td>
+                            <td>10.8%</td>	
+                            <td>WON</td>	
+                        </tr>
+                        <tr>
+                            <td>Little  Women</td>
+                            <td>11.5%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Joker</td>
+                            <td>12.3%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>The Irishman</td>
+                            <td>15.4%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>Marriage Story</td>
+                            <td>20.8%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Jojo Rabbit</td>
+                            <td>20.8%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>1917</td>
+                            <td>30.8%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr style="font-weight:bold" >
+                            <td>Parasite</td>
+                            <td>43.8%</td>
+                            <td>WON</td>		
+                        </tr>
+                    </table>
+                </div>
+                <div class="year">
+                    <table class="t1">
+                        <caption>2018</caption>
+                        <col style="width:60%">
+	                    <col style="width:20%">
+	                    <col style="width:20%">
+                        <tr>
+                            <th>Nominees</th>
+                            <th>Probability of Winning</th>	
+                            <th>Winner</th>		
+                        </tr>
+                        <tr>
+                            <td>Vice</td>
+                            <td>4.6%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr style="font-weight:bold">
+                            <td>Green Book</td>
+                            <td>9.2%</td>	
+                            <td>WON</td>	
+                        </tr>
+                        <tr>
+                            <td>Bohemian Rhapsody</td>
+                            <td>13.1%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>A Star Is Born</td>
+                            <td>13.1%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>Black Panther</td>
+                            <td>23.1%</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>The Favourite</td>
+                            <td>23.1%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Roma</td>
+                            <td>23.1%</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>BlackkKlansman</td>
+                            <td>48.5%</td>
+                            <td>LOST</td>		
+                        </tr>
+                    </table>
+                </div>
+                <div class="year">
+                    <table class="t1">
+                        <caption>2020</caption>
+                        <col style="width:60%">
+	                    <col style="width:20%">
+	                    <col style="width:20%">
+                        <tr>
+                            <th>Nominees</th>
+                            <th>Probability of Winning</th>	
+                            <th>Winner</th>		
+                        </tr>
+                        <tr>
+                            <td>Pending</td>
+                            <td>Pending</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr style="font-weight:bold">
+                            <td>Pending</td>
+                            <td>Pending</td>	
+                            <td>WON</td>	
+                        </tr>
+                        <tr>
+                            <td>Pending</td>
+                            <td>Pending</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Pending</td>
+                            <td>Pending</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>Pending</td>
+                            <td>Pending</td>
+                            <td>LOST</td>		
+                        </tr>
+                        <tr>
+                            <td>Pending</td>
+                            <td>Pending</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Pending</td>
+                            <td>Pending</td>	
+                            <td>LOST</td>	
+                        </tr>
+                        <tr>
+                            <td>Pending</td>
+                            <td>Pending</td>
+                            <td>LOST</td>		
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class='container2' id="generate-prediction">
+            <h3> Make A Prediction </h3>
+            <p> Enter the actor, director, and budget to see the probability of your movie winning Best Picture</p>
+            
+            <!-- add form here--> 
+
         </div>
     </body>
 </html>
