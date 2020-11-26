@@ -1,24 +1,32 @@
-<?php
-// Start the session
-session_start();
-?>
-<html>
-    <header>
-        <title>
-            
-        </title>
-    </header>
+<!DOCTYPE html>
+
+<html>    
+    <head>
+        <title>Oscar Predictions</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    
     <body>
-        
-        <h1>The Movie Input Form</h1>
+        <div class='container'>
+            <div id="header-image"> 
+                <img src="img/header.png"> 
+            </div>
+            <h2> Oscar Nominee Submission Form </h2>
+            <div id="project-description">
+                <p> Enter the Oscar Movie Nominee</p><br><br>
+            </div>
+        </div>
 
 <form action="./Predictions.php">
+    
 <?php
     
     $_SESSION['num']=$_GET['num'];
     setcookie("n",$_GET["num"], time() + (86400 * 30), "/"); 
     for($i=1;$i<=$_SESSION['num'];$i++){
-    echo"<h2>Movie $i Nomination Information</h2>";
+    
+    echo"<p class ='formtitle'><br><b>Movie $i Nomination Information</b></p>";
+  
     echo'<label for="'.$i.'mName"><b>Movie Name:</b></label><br>
     <input type="text" id="'.$i.'mName" name="'.$i.'mName"><br>
   <label for="rTime">Run Time:</label><br>
@@ -51,6 +59,8 @@ session_start();
         <option value=11>November</option>
         <option value=12>December</option>
     </select><br>
+    <label for="release">Release Year:</label><br>
+    <input type="number" id="'.$i.'release" name="'.$i.'release"><br>
     <label for ="peak">Peak Box Office Ranking</label><br>
     <input type="number" id="'.$i.'peak" name="'.$i.'peak"><br><br>
    
@@ -60,7 +70,7 @@ session_start();
     <input type="number" id="'.$i.'dirNom" name="'.$i.'dirNom"><br>
     <label for="dirWin">Director Wins:</label><br>
     <input type="number" id="'.$i.'dirWin" name="'.$i.'dirWin"><br>
-     
+   
     <label for="act1"><b>Actor/Actress Name:</b></label><br>
     <input type="text" id="'.$i.'act1" name="'.$i.'act1"><br>
     <label for="actNom1">Actor/Actress Nomination:</label><br>
@@ -78,11 +88,13 @@ session_start();
     <label for="actNom3">Actor/Actress Nomination:</label><br>
     <input type="number" id="'.$i.'actNom3" name="'.$i.'actNom3"><br>
     <label for="actWin3">Actor/Actress Wins:</label><br>
-    <input type="number" id="'.$i.'actWin3" name="'.$i.'actWin3"><br><br>';
+    <input type="number" id="'.$i.'actWin3" name="'.$i.'actWin3"><br><br>
+    </ul>';
     }?>
+    
     <input type="submit" value="Submit Predictions">
 
-    <button type="submit" formaction="./Pre_form.html">Change # Nominations</button>
+    <button type="submit" formaction="./index.html">Change # Nominations</button>
 </form>
         
     </body>
