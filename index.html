@@ -16,7 +16,16 @@
                 <p> Sample text explaining the functionality of our project</p><br><br>
             </div>
         </div>
-        
+         <div class="container2">
+        <h3> Make A Prediction </h3>
+            <p> Enter the Number of Nominees(Min:2 and Max:12):</p>
+            <form class='container2' action="./Form.php">
+                
+    <input type="number" id="num" name="num" value="2" min="2" max="12"><br><br>
+    <input type="submit" value="Submit # of Nominations">
+            </form>
+            
+        </div>
         <div class='container1' id="model-performance">
             <h3> Model Performance </h3>
             <p> Sample text explaining our model's algorithm and accuracy</p>
@@ -250,12 +259,6 @@
                 </div>
             </div>
         </div>
-        <div class='container2' id="generate-prediction">
-            <h3> Make A Prediction </h3>
-            <p> Enter the actor, director, and budget to see the probability of your movie winning Best Picture</p>
-            
-            <!-- add form here--> 
-
-        </div>
+       
     </body>
 </html>
