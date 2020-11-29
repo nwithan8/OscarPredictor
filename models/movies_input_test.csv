@@ -1,0 +1,9 @@
+Run_Time, Budget,Revenue, Gross_Rev, ROTTEN_SCORE,MPAA Rating (string),US_Release_month(int),US_Release_year(int),Peak_Box_Office,Director_Name,Director_Won_Best,Director_Nom,Director_Win, Actor_Name,Actor_Won_Best,Actor_Nom,Actor_Win,Actor2_Name,Actor2_Won_Best,Actor2_Nom,Actor2_Win,Actor3_Name,Actor3_Won_Best,Actor3_Nom,Actor3_Win 
+121,25000000,152500343,127500343,62,PG-13,12,2000,13,Lasse Hallstr�m,FALSE,2,0,Alfred Molina,FALSE,0,0,Carrie-Anne Moss,FALSE,0,0,Aurelien Parent Koenig,FALSE,0,0
+120,17000000,213525736,196525736,97,PG-13,1,2001,2,Ang Lee,FALSE,1,0,Yun-Fat Chow,FALSE,0,0,Michelle Yeoh,FALSE,0,0,Ziyi Zhang,FALSE,0,0
+131,52000000,256271286,204271286,84,R,3,2000,1,Steven Soderbergh,TRUE,1,1,Julia Roberts,TRUE,1,1,David Brisbin,FALSE,0,0,Dawn Didawick,FALSE,0,0
+155,103000000,465361176,362361176,77,R,5,2000,1,Ridley Scott,FALSE,2,0,Russell Crowe,TRUE,1,1,Joaquin Phoenix,FALSE,0,0,Connie Nielsen,FALSE,0,0
+147,48000000,207515725,159515725,93,R,12,2000,3,Steven Soderbergh,TRUE,1,1,Benicio Del Toro,FALSE,0,0,Jacob Vargas,FALSE,0,0,Andrew Chavez,FALSE,0,0
+135,60000000,313542341,253542341,75,PG-13,12,2001,2,Ron Howard,TRUE,1,0,Russell Crowe,FALSE,2,1,Ed Harris,FALSE,1,0,Jennifer Connelly,FALSE,0,0
+131,19800000,87754044,67954044,86,R,1,2002,9,Robert Altman,FALSE,4,0,Maggie Smith,FALSE,1,1,Michael Gambon,FALSE,0,0,Kristin Scott Thomas,FALSE,1,0
+131,1700000,43368779,43368779,93,R,1,2002,17,Todd Field,FALSE,0,0,Tom Wilkinson,FALSE,1,0,Sissy Spacek,FALSE,5,1,Nick Stahl,FALSE,0,0

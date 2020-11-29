@@ -17,11 +17,11 @@ def main():
 
     for i in range(0,n):
         item = list(movies_file.iloc[i])
-	director = item[9]
-    	actor1 = item[13]
-    	actor2 = item[17]
-    	actor3 = item[21]
-    	mpaaRating = item[5]
+        director = item[9]
+        actor1 = item[13]
+        actor2 = item[17]
+        actor3 = item[21]
+        mpaaRating = item[5]
 
         if not(director in directors):
             directors.append(director)
@@ -32,32 +32,33 @@ def main():
             actors.append(actor1)
         item[13] = actors.index(actor1)
         item[14] = int(item[14])
-    
-    	if not(actor2 in actors):
+
+        if not(actor2 in actors):
             actors.append(actor2)
         item[17] = actors.index(actor2)
-    	item[18] = int(item[18])
+        item[18] = int(item[18])
     
-    	if not(actor3 in actors):
+        if not(actor3 in actors):
             actors.append(actor3)
-    	item[21] = actors.index(actor3)
-    	item[22] = int(item[22])
+        item[21] = actors.index(actor3)
+        item[22] = int(item[22])
     
-    	if not(mpaaRating in mpaaRatings):
+        if not(mpaaRating in mpaaRatings):
             mpaaRatings.append(mpaaRating)
-    	item[5] = mpaaRatings.index(mpaaRating)
+        item[5] = mpaaRatings.index(mpaaRating)
 
         movie = item[0:4] + item[9:] + [item[5]] + [item[4]] + item[6:9]
         X.append(movie)
     
     classifier_file = open("oscars_classifier.pkl", 'rb')
     classifier = pickle.load(classifier_file)
-    file.close()
+    classifier_file.close()
 
-    predictions = classifier.predict(X)
+    predictions = classifier.predict_proba(X)[:,1]
     predictions_file = open("predictions.csv",'w')
     for prediction in predictions:
-    	predictions_file.write(r + ",")
+        prediction = round(prediction, 3)
+        predictions_file.write(str(prediction) + ",")
     predictions_file.close()
 
 if __name__ == "__main__":
