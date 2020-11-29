@@ -71,7 +71,8 @@
     echo"<br>";
     
     for($i=0;$i<count($name_list);$i++){
-        echo "<h3>$name_list[$i] <br>$results[$i]% </h3>";
+        $answers=$results[$i]*100;
+        echo "<h3>$name_list[$i] <br>$answers% </h3>";
     }
     
 
