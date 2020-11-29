@@ -58,7 +58,7 @@ def main():
     predictions_file = open("predictions.csv",'w')
     for prediction in predictions:
         prediction = round(prediction, 3)
-        predictions_file.write(str(prediction) + ",")
+        predictions_file.write(str(prediction) + ",\n")
     predictions_file.close()
 
 if __name__ == "__main__":
