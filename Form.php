@@ -8,8 +8,8 @@
     
     <body>
         <div class='container'>
-            <div id="header-image"> 
-                <img src="img/header.png"> 
+            <div id="header-image"> <a href= "./index.html">
+                <img src="img/header.png"> </a>
             </div>
             <h2> Oscar Nominee Submission Form </h2>
             <div id="project-description">
