@@ -1,5 +1,5 @@
 .container {
-  padding: 5px;
+  padding: 10px;
   background-color: white;
 }
 
@@ -41,7 +41,6 @@ h3 {
   font-size: 55px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 100;
- 
 }
 .container1 {
   padding-bottom: 40px;
@@ -83,7 +82,8 @@ caption {
   justify-content: center;
 }
 .container2 {
-  padding: 15px;
+  padding-bottom: 15px;
+  padding-top: 1px;
   background-color: rgb(240, 240, 240);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
