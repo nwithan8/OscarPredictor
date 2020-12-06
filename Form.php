@@ -5,6 +5,7 @@
 <head>
     <title>Oscar Predictions</title>
     <link rel="stylesheet" href="css/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <style>
         /*the container must be positioned relative:*/
         .autocomplete {
@@ -188,7 +189,8 @@ console.log(Object.keys(actors));
         <?php
     
     $_SESSION['num']=$_GET['num'];
-    setcookie("n",$_GET["num"], time() + (86400 * 30), "/"); 
+    setcookie("n",$_GET["num"], time() + (86400 * 30), "/");
+	echo '<input type="hidden" id="num" name="num" value="'.$_GET["num"].'">';
     for($i=1;$i<=$_SESSION['num'];$i++){
     
     echo"<p class ='formtitle'><br><b>Movie $i Nomination Information</b></p>";
@@ -283,6 +285,21 @@ console.log(Object.keys(actors));
 
         <button type="submit" formaction="./index.html">Change # Nominations</button>
     </form>
+
+<script>
+$("#submit-button").on("click", function(e)
+{
+   e.preventDefault();
+   $('.movies-form input').each(
+            function(){
+              $(this).attr( "value", $(this).val() );
+            });
+  $("#hidden-field").val($(".movies-form").html());
+
+    $(".movies-form").submit();
+  }
+</script>
+
 
 </body>
 

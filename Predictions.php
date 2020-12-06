@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 
-<html>    
-    <head>
-        <title>Oscar Predictions</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    
-    <body>
-        <div class='container'>
-            <div id="header-image"> <a href= "./index.html">
+<html>
+
+<head>
+    <title>Oscar Predictions</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class='container'>
+        <div id="header-image"> <a href="./index.html">
                 <img src="img/header.png"> </a>
-            </div>
-            <h2> Oscar Predictions </h2>
-            <div id="project-description">
-                <p> Oscar Predictions Results</p><br><br>
-            </div>
         </div>
-    
+        <h2> Oscar Predictions </h2>
+        <div id="project-description">
+            <p> Oscar Predictions Results</p><br><br>
+        </div>
+    </div>
+
     <?php
         
    file_put_contents("./movies_input.csv", "");
     file_put_contents("./predictions.csv", "");
     $name_list=array();
     $movieinput="Run_Time, Budget,Revenue, Gross_Rev, ROTTEN_SCORE,MPAA Rating (string),US_Release_month(int),US_Release_year(int),Peak_Box_Office,Director_Name,Director_Won_Best,Director_Nom,Director_Win, Actor_Name,Actor_Won_Best,Actor_Nom,Actor_Win,Actor2_Name,Actor2_Won_Best,Actor2_Nom,Actor2_Win,Actor3_Name,Actor3_Won_Best,Actor3_Nom,Actor3_Win ";
-    for($i=0;$i<$_COOKIE["n"];$i++){
+    for($i=0;$i<$_GET["num"];$i++){
         $name_list[$i]=$_GET[strval($i+1)."mName"];
         $grossrev=$_GET[strval($i+1)."rev"]-$_GET[strval($i+1)."budget"];
         if (($_GET[strval($i+1)."dirWin"])>0){
@@ -57,6 +58,8 @@
         $movie_list[$i]=$movie_array;
         */
    }
+//echo "'.$movieinput.'";
+
   
        $fp=fopen("movies_input.csv","w");
     
@@ -78,5 +81,6 @@
 
     
     ?>
-    </body>
+</body>
+
 </html>
